@@ -1,2 +1,9 @@
 # Predicting-Three-BodyProblem-HNN
 Predicting the three-body problem using Hamiltonian Neural Networks (HNN)
+
+三体問題の8の字解を学習・予測するプロジェクトである。
+PythonスクリプトとDockerファイルを同じディレクトリにおいて、Dockerで実行すればよい。なお、実行にはCudaが必要である。"batch_size"などは環境によって適宜変更する。
+_generate_figure8_data.pyは入力データの作成
+_HNN_Figure8_Separated_Model.pyは本学習
+_HNN_Figure8_FineTune.pyは追加学習
+_HNN_simulation_figure8_SepModel.pyはシミュレーション用スクリプトである。
